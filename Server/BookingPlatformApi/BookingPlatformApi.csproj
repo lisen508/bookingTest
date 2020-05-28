@@ -1,0 +1,89 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+    <AspNetCoreHostingModel>InProcess</AspNetCoreHostingModel>
+    <DockerDefaultTargetOS>Linux</DockerDefaultTargetOS>
+  </PropertyGroup>
+
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|AnyCPU'">
+    <DocumentationFile>bin\BookingPlatformApi.xml</DocumentationFile>
+    <OutputPath>bin\</OutputPath>
+  </PropertyGroup>
+
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|AnyCPU'">
+    <DocumentationFile>F:\迁移\Core\Server\BookingPlatformApi\BookingPlatformApi.xml</DocumentationFile>
+	  <IsPackable>true</IsPackable> 
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Compile Remove="Controllers\MedicalAppointment\**" />
+    <Compile Remove="Controllers\MedicalTechniqueStatistic\**" />
+    <Content Remove="Controllers\MedicalAppointment\**" />
+    <Content Remove="Controllers\MedicalTechniqueStatistic\**" />
+    <EmbeddedResource Remove="Controllers\MedicalAppointment\**" />
+    <EmbeddedResource Remove="Controllers\MedicalTechniqueStatistic\**" />
+    <None Remove="Controllers\MedicalAppointment\**" />
+    <None Remove="Controllers\MedicalTechniqueStatistic\**" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Compile Remove="Controllers\Common\ArrangeAdjust.cs" />
+    <Compile Remove="Controllers\Common\AuthFilterMTAttribute.cs" />
+    <Compile Remove="Controllers\Common\AutoContinue.cs" />
+    <Compile Remove="Controllers\Common\CheckFirstLoadHospital.cs" />
+    <Compile Remove="Controllers\Common\GetBookingID.cs" />
+    <Compile Remove="Controllers\Common\HospitalUserFilterAttribute.cs" />
+    <Compile Remove="Controllers\Common\LogFilterAttribute.cs" />
+    <Compile Remove="Controllers\Common\MedicalSystemErrorFilter.cs" />
+    <Compile Remove="Controllers\TagsController.cs" />
+    <Compile Remove="Filters\MyAuthorization.cs" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Content Remove="log4net.config" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Include="log4net.config">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.VisualStudio.Azure.Containers.Tools.Targets" Version="1.9.10" />
+    <PackageReference Include="Swashbuckle.AspNetCore" Version="5.0.0" />
+    <PackageReference Include="Swashbuckle.AspNetCore.Filters" Version="5.0.0" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\BookingPlatform.Common\BookingPlatform.Common.csproj" />
+    <ProjectReference Include="..\BookingPlatform.Core\BookingPlatform.Core.csproj" />
+    <ProjectReference Include="..\BookingPlatform.Extensions\BookingPlatform.Extensions.csproj" />
+    <ProjectReference Include="..\BookingPlatform.Service\BookingPlatform.Service.csproj" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Content Update="appsettings.Development.json">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Update="appsettings.Production.json">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Update="appsettings.json">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Update="BookingPlatformApi.xml">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Update="version.txt">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+  </ItemGroup>
+
+  <ProjectExtensions><VisualStudio><UserProperties appsettings_1json__JsonSchema="66" appsettings_1development_1json__JsonSchema="http://json.schemastore.org/appsettings" /></VisualStudio></ProjectExtensions>
+
+</Project>

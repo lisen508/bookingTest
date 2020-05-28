@@ -1,0 +1,87 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.29728.190
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BookingPlatformApi", "BookingPlatformApi\BookingPlatformApi.csproj", "{12037C92-3A3D-4143-957F-5C4EC26AD302}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "01-应用程序", "01-应用程序", "{51694296-9457-4CB9-A75C-1EDF277C89E7}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "02-应用服务", "02-应用服务", "{FBE7ECA9-A974-42FA-9EB1-3168B433F87C}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "03-应用公共", "03-应用公共", "{D770F406-5797-4A29-B3B9-67EA703A0937}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "04-应用扩展", "04-应用扩展", "{B0B13329-34ED-49AC-9B6D-FBCB5B8DB307}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BookingPlatform.Core", "BookingPlatform.Core\BookingPlatform.Core.csproj", "{D3668E81-FC6A-43BD-81BD-C5E54EC5BAF6}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BookingPlatform.Service", "BookingPlatform.Service\BookingPlatform.Service.csproj", "{D8664E38-8F7B-4C5B-94A9-629136B69009}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BookingPlatform.Common", "BookingPlatform.Common\BookingPlatform.Common.csproj", "{145CA108-0981-433A-B660-69A8212D6516}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BookingPlatform.Extensions", "BookingPlatform.Extensions\BookingPlatform.Extensions.csproj", "{FFA8238B-4B61-4440-95ED-2389CC623152}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BookingPlatform.Dal", "BookingPlatform.Dal\BookingPlatform.Dal.csproj", "{89D8B9C6-7B9C-4E68-8CD4-ECA5A17EC751}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "XUnitTest", "XUnitTest\XUnitTest.csproj", "{07F34764-DD4D-481B-B367-56A1375BFB01}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "05-Tools", "05-Tools", "{9892CD95-923F-456A-A1B1-A8A333B875BC}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BookingPlatform_QueueArrange", "BookingPlatform_QueueArrange\BookingPlatform_QueueArrange.csproj", "{0A0CC53C-9A2A-4ADC-B9AB-F095D9CD8E9C}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{12037C92-3A3D-4143-957F-5C4EC26AD302}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{12037C92-3A3D-4143-957F-5C4EC26AD302}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{12037C92-3A3D-4143-957F-5C4EC26AD302}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{12037C92-3A3D-4143-957F-5C4EC26AD302}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D3668E81-FC6A-43BD-81BD-C5E54EC5BAF6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D3668E81-FC6A-43BD-81BD-C5E54EC5BAF6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D3668E81-FC6A-43BD-81BD-C5E54EC5BAF6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D3668E81-FC6A-43BD-81BD-C5E54EC5BAF6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D8664E38-8F7B-4C5B-94A9-629136B69009}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D8664E38-8F7B-4C5B-94A9-629136B69009}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D8664E38-8F7B-4C5B-94A9-629136B69009}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D8664E38-8F7B-4C5B-94A9-629136B69009}.Release|Any CPU.Build.0 = Release|Any CPU
+		{145CA108-0981-433A-B660-69A8212D6516}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{145CA108-0981-433A-B660-69A8212D6516}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{145CA108-0981-433A-B660-69A8212D6516}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{145CA108-0981-433A-B660-69A8212D6516}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FFA8238B-4B61-4440-95ED-2389CC623152}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FFA8238B-4B61-4440-95ED-2389CC623152}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FFA8238B-4B61-4440-95ED-2389CC623152}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FFA8238B-4B61-4440-95ED-2389CC623152}.Release|Any CPU.Build.0 = Release|Any CPU
+		{89D8B9C6-7B9C-4E68-8CD4-ECA5A17EC751}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{89D8B9C6-7B9C-4E68-8CD4-ECA5A17EC751}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{89D8B9C6-7B9C-4E68-8CD4-ECA5A17EC751}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{89D8B9C6-7B9C-4E68-8CD4-ECA5A17EC751}.Release|Any CPU.Build.0 = Release|Any CPU
+		{07F34764-DD4D-481B-B367-56A1375BFB01}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{07F34764-DD4D-481B-B367-56A1375BFB01}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{07F34764-DD4D-481B-B367-56A1375BFB01}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{07F34764-DD4D-481B-B367-56A1375BFB01}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0A0CC53C-9A2A-4ADC-B9AB-F095D9CD8E9C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0A0CC53C-9A2A-4ADC-B9AB-F095D9CD8E9C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0A0CC53C-9A2A-4ADC-B9AB-F095D9CD8E9C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0A0CC53C-9A2A-4ADC-B9AB-F095D9CD8E9C}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{12037C92-3A3D-4143-957F-5C4EC26AD302} = {51694296-9457-4CB9-A75C-1EDF277C89E7}
+		{D3668E81-FC6A-43BD-81BD-C5E54EC5BAF6} = {FBE7ECA9-A974-42FA-9EB1-3168B433F87C}
+		{D8664E38-8F7B-4C5B-94A9-629136B69009} = {FBE7ECA9-A974-42FA-9EB1-3168B433F87C}
+		{145CA108-0981-433A-B660-69A8212D6516} = {D770F406-5797-4A29-B3B9-67EA703A0937}
+		{FFA8238B-4B61-4440-95ED-2389CC623152} = {B0B13329-34ED-49AC-9B6D-FBCB5B8DB307}
+		{89D8B9C6-7B9C-4E68-8CD4-ECA5A17EC751} = {FBE7ECA9-A974-42FA-9EB1-3168B433F87C}
+		{07F34764-DD4D-481B-B367-56A1375BFB01} = {B0B13329-34ED-49AC-9B6D-FBCB5B8DB307}
+		{0A0CC53C-9A2A-4ADC-B9AB-F095D9CD8E9C} = {9892CD95-923F-456A-A1B1-A8A333B875BC}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {1B034362-EDE9-49F5-BEA0-2154639D0BC3}
+	EndGlobalSection
+EndGlobal

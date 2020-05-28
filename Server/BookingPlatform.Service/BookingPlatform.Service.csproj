@@ -1,0 +1,17 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+  </PropertyGroup>
+
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|AnyCPU'">
+    <DocumentationFile></DocumentationFile>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\BookingPlatform.Common\BookingPlatform.Common.csproj" />
+    <ProjectReference Include="..\BookingPlatform.Core\BookingPlatform.Core.csproj" />
+    <ProjectReference Include="..\BookingPlatform.Dal\BookingPlatform.Dal.csproj" />
+  </ItemGroup>
+
+</Project>
