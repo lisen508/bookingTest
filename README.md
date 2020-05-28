@@ -1,4 +1,4 @@
-# bookingPlatformApi
+# bookingTest
 
 基于.net core3.1开发框架；从 0 到 1 快速入门 ASP.NET Core 框架
 
