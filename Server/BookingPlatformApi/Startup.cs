@@ -54,7 +54,7 @@ namespace BookingPlatformApi
         /// <param name="services"></param>
         public void ConfigureServices(IServiceCollection services)
         {
-            AddAssembly(services, "BookingPlatform.Service");
+            AddAssembly(services, "BookingTest.Service");
             services.AddSingleton<IHttpContextAccessor, HttpContextAccessor>();
             services.AddAuthentication(x =>
             {

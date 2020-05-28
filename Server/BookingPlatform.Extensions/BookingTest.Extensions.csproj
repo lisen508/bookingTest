@@ -9,9 +9,7 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\BookingPlatform.Common\BookingPlatform.Common.csproj" />
-    <ProjectReference Include="..\BookingPlatform.Core\BookingPlatform.Core.csproj" />
-    <ProjectReference Include="..\BookingPlatform.Dal\BookingPlatform.Dal.csproj" />
+    <ProjectReference Include="..\BookingPlatform.Common\BookingTest.Common.csproj" />
   </ItemGroup>
 
 </Project>

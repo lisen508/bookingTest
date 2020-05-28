@@ -14,7 +14,7 @@
   </ItemGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\BookingPlatform.Common\BookingPlatform.Common.csproj" />
+    <ProjectReference Include="..\BookingPlatform.Common\BookingTest.Common.csproj" />
   </ItemGroup>
 
 </Project>

@@ -57,10 +57,10 @@
   </ItemGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\BookingPlatform.Common\BookingPlatform.Common.csproj" />
-    <ProjectReference Include="..\BookingPlatform.Core\BookingPlatform.Core.csproj" />
-    <ProjectReference Include="..\BookingPlatform.Extensions\BookingPlatform.Extensions.csproj" />
-    <ProjectReference Include="..\BookingPlatform.Service\BookingPlatform.Service.csproj" />
+    <ProjectReference Include="..\BookingPlatform.Common\BookingTest.Common.csproj" />
+    <ProjectReference Include="..\BookingPlatform.Core\BookingTest.Core.csproj" />
+    <ProjectReference Include="..\BookingPlatform.Extensions\BookingTest.Extensions.csproj" />
+    <ProjectReference Include="..\BookingPlatform.Service\BookingTest.Service.csproj" />
   </ItemGroup>
 
   <ItemGroup>
@@ -76,7 +76,7 @@
   </ItemGroup>
 
   <ItemGroup>
-    <None Update="BookingPlatformApi.xml">
+    <None Update="BookingTestApi.xml">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </None>
     <None Update="version.txt">

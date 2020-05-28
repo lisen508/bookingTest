@@ -18,8 +18,8 @@
   </ItemGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\BookingPlatform.Common\BookingPlatform.Common.csproj" />
-    <ProjectReference Include="..\BookingPlatform.Core\BookingPlatform.Core.csproj" />
+    <ProjectReference Include="..\BookingPlatform.Common\BookingTest.Common.csproj" />
+    <ProjectReference Include="..\BookingPlatform.Core\BookingTest.Core.csproj" />
   </ItemGroup>
 
 </Project>

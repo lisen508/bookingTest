@@ -1,4 +1,4 @@
-<Project Sdk="Microsoft.NET.Sdk">
+﻿<Project Sdk="Microsoft.NET.Sdk">
 
   <PropertyGroup>
     <OutputType>Exe</OutputType>
@@ -24,8 +24,8 @@
   </ItemGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\BookingPlatform.Common\BookingPlatform.Common.csproj" />
-    <ProjectReference Include="..\BookingPlatform.Dal\BookingPlatform.Dal.csproj" />
+    <ProjectReference Include="..\BookingPlatform.Common\BookingTest.Common.csproj" />
+    <ProjectReference Include="..\BookingPlatform.Dal\BookingTest.Dal.csproj" />
   </ItemGroup>
 
   <ItemGroup>

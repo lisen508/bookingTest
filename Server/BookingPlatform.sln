@@ -3,7 +3,7 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.29728.190
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BookingPlatformApi", "BookingPlatformApi\BookingPlatformApi.csproj", "{12037C92-3A3D-4143-957F-5C4EC26AD302}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BookingTestApi", "BookingPlatformApi\BookingTestApi.csproj", "{12037C92-3A3D-4143-957F-5C4EC26AD302}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "01-应用程序", "01-应用程序", "{51694296-9457-4CB9-A75C-1EDF277C89E7}"
 EndProject
@@ -13,21 +13,21 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "03-应用公共", "03-应�
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "04-应用扩展", "04-应用扩展", "{B0B13329-34ED-49AC-9B6D-FBCB5B8DB307}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BookingPlatform.Core", "BookingPlatform.Core\BookingPlatform.Core.csproj", "{D3668E81-FC6A-43BD-81BD-C5E54EC5BAF6}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BookingTest.Core", "BookingPlatform.Core\BookingTest.Core.csproj", "{D3668E81-FC6A-43BD-81BD-C5E54EC5BAF6}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BookingPlatform.Service", "BookingPlatform.Service\BookingPlatform.Service.csproj", "{D8664E38-8F7B-4C5B-94A9-629136B69009}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BookingTest.Service", "BookingPlatform.Service\BookingTest.Service.csproj", "{D8664E38-8F7B-4C5B-94A9-629136B69009}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BookingPlatform.Common", "BookingPlatform.Common\BookingPlatform.Common.csproj", "{145CA108-0981-433A-B660-69A8212D6516}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BookingTest.Common", "BookingPlatform.Common\BookingTest.Common.csproj", "{145CA108-0981-433A-B660-69A8212D6516}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BookingPlatform.Extensions", "BookingPlatform.Extensions\BookingPlatform.Extensions.csproj", "{FFA8238B-4B61-4440-95ED-2389CC623152}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BookingTest.Extensions", "BookingPlatform.Extensions\BookingTest.Extensions.csproj", "{FFA8238B-4B61-4440-95ED-2389CC623152}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BookingPlatform.Dal", "BookingPlatform.Dal\BookingPlatform.Dal.csproj", "{89D8B9C6-7B9C-4E68-8CD4-ECA5A17EC751}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BookingTest.Dal", "BookingPlatform.Dal\BookingTest.Dal.csproj", "{89D8B9C6-7B9C-4E68-8CD4-ECA5A17EC751}"
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "XUnitTest", "XUnitTest\XUnitTest.csproj", "{07F34764-DD4D-481B-B367-56A1375BFB01}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "05-Tools", "05-Tools", "{9892CD95-923F-456A-A1B1-A8A333B875BC}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BookingPlatform_QueueArrange", "BookingPlatform_QueueArrange\BookingPlatform_QueueArrange.csproj", "{0A0CC53C-9A2A-4ADC-B9AB-F095D9CD8E9C}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BookingTest_QueueArrange", "BookingPlatform_QueueArrange\BookingTest_QueueArrange.csproj", "{0A0CC53C-9A2A-4ADC-B9AB-F095D9CD8E9C}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
